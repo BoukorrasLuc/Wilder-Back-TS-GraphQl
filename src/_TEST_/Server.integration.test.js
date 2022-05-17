@@ -1,5 +1,5 @@
 const { createTestClient } = require('apollo-server-testing');
-const createServer = require('../createApolloServer');
+const createServer = require('./Helpers/createApolloServer');
 const MongoClient = require('mongodb').MongoClient;
 require('dotenv').config();
 const LOADER_URI = process.env.MONGODB_URI;
